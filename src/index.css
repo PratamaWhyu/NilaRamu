@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #131315;
+  --color-surface-dim: #131315;
+  --color-surface-bright: #39393b;
+  --color-surface-container-lowest: #0e0e10;
+  --color-surface-container-low: #1b1b1d;
+  --color-surface-container: #201f21;
+  --color-surface-container-high: #2a2a2c;
+  --color-surface-container-highest: #353437;
+  --color-on-surface: #e5e1e4;
+  --color-on-surface-variant: #bbc9cd;
+  --color-inverse-surface: #e5e1e4;
+  --color-inverse-on-surface: #303032;
+  --color-outline: #859397;
+  --color-outline-variant: #3c494c;
+  --color-surface-tint: #2fd9f4;
+  --color-primary: #8aebff;
+  --color-on-primary: #00363e;
+  --color-primary-container: #22d3ee;
+  --color-on-primary-container: #005763;
+  --color-inverse-primary: #006877;
+  --color-secondary: #ffb95f;
+  --color-on-secondary: #472a00;
+  --color-secondary-container: #ee9800;
+  --color-on-secondary-container: #5b3800;
+  --color-tertiary: #ffd3c4;
+  --color-on-tertiary: #5a1c00;
+  --color-tertiary-container: #ffad8e;
+  --color-on-tertiary-container: #8d3000;
+  --color-error: #ffb4ab;
+  --color-on-error: #690005;
+  --color-error-container: #93000a;
+  --color-on-error-container: #ffdad6;
+  --color-background: #131315;
+  --color-on-background: #e5e1e4;
+
+  --font-display-hero: 'Bricolage Grotesque', sans-serif;
+  --font-headline-lg: 'Bricolage Grotesque', sans-serif;
+  --font-headline-md: 'Bricolage Grotesque', sans-serif;
+  --font-headline-sm: 'Bricolage Grotesque', sans-serif;
+  --font-label-sticker: 'Bricolage Grotesque', sans-serif;
+  --font-body-lg: 'Space Grotesk', sans-serif;
+  --font-body-md: 'Space Grotesk', sans-serif;
+  --font-body-sm: 'Space Grotesk', sans-serif;
+  --font-label-lg: 'Space Grotesk', sans-serif;
+  --font-label-md: 'Space Grotesk', sans-serif;
+
+  --spacing-gutter: 1.5rem;
+  --spacing-margin: 3rem;
+  --spacing-margin-mobile: 1.25rem;
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.75rem;
+  --spacing-space-xl: 3rem;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #131315;
+    color: #e5e1e4;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #131315;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a2c;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ee9800;
+}

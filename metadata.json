@@ -1,0 +1,6 @@
+{
+  "name": "Nila Bumbu Kuning - Rempah Authentic",
+  "description": "Ikan nila ungkep bumbu kuning marinasi vacuum pack (Ready-to-Cook). Praktis disimpan di freezer, siap digoreng renyah atau air-fry kapan saja.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
